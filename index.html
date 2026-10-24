@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a2552" />
+    <script>
+      try {
+        var t = localStorage.getItem("theme");
+        if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+    <title>Sher Afgan | B2B Lead Generation and Pipeline Strategist</title>
+    <meta name="description" content="Sher Afgan helps AI, SaaS and IT companies reach hard-to-reach B2B buyers and build qualified pipeline through research-led LinkedIn and email outreach." />
+    <link rel="canonical" href="__SITE_URL__/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Sher Afgan" />
+    <meta property="og:title" content="Sher Afgan | B2B Lead Generation and Pipeline Strategist" />
+    <meta property="og:description" content="Research-led outbound for AI, SaaS and IT companies selling into complex industries." />
+    <meta property="og:url" content="__SITE_URL__/" />
+    <meta property="og:image" content="__SITE_URL__/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
+    <script type="application/ld+json">__JSON_LD__</script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
