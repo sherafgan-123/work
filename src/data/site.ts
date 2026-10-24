@@ -5,8 +5,7 @@ export const site = {
   location: "Lahore, Pakistan",
   // TODO: portfolio PDF lists this address under the spelling "Shair Afgen". Confirm it is correct.
   email: "shairafgen9@gmail.com",
-  // TODO: add a real scheduling link (Calendly, Cal.com, etc). While empty, "Book a Strategy Call" opens the contact page.
-  bookingUrl: "",
+  bookingUrl: "https://cal.com/shair-afgen-pb0z87/30min",
   // TODO: add the LinkedIn profile URL. While empty, no LinkedIn link is shown.
   linkedinUrl: "",
   // TODO: create a Formspree (or similar) form and paste its endpoint. While empty, the form opens the visitor's email app.
