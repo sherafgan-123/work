@@ -12,7 +12,7 @@ export const site = {
   // TODO: create a Formspree (or similar) form and paste its endpoint. While empty, the form opens the visitor's email app.
   formEndpoint: "",
   // Public URL of the deployed site, no trailing slash. Used for canonical URLs, sitemap and Open Graph.
-  url: "https://sherafgan-123.github.io/my-portfolio",
+  url: "https://sherafgan-123.github.io/work",
 } as const;
 
 export const headlineStats = [
