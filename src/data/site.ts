@@ -8,8 +8,8 @@ export const site = {
   bookingUrl: "https://cal.com/shair-afgen-pb0z87/30min",
   // TODO: add the LinkedIn profile URL. While empty, no LinkedIn link is shown.
   linkedinUrl: "",
-  // TODO: create a Formspree (or similar) form and paste its endpoint. While empty, the form opens the visitor's email app.
-  formEndpoint: "",
+  // Formspree form "Sher Afgan portfolio enquiry". Enquiries are emailed to the address linked to that Formspree account.
+  formEndpoint: "https://formspree.io/f/mrppeglr",
   // Public URL of the deployed site, no trailing slash. Used for canonical URLs, sitemap and Open Graph.
   url: "https://sherafgan-123.github.io/work",
 } as const;
