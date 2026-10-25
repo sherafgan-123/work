@@ -500,7 +500,6 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .testi figcaption strong { display: block; color: var(--ink); }
 .testi figcaption small { color: var(--ink-2); font-size: var(--fs-14); }
 .avatar { width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; background: linear-gradient(135deg, var(--turq), var(--glass)); color: var(--deep); font: 500 var(--fs-14)/1 var(--font-mono); flex-shrink: 0; }
-.testi-flag { position: absolute; top: var(--s-4); right: var(--s-4); font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; padding: 4px 10px; border-radius: 999px; background: var(--amber-bg); color: var(--amber); border: 1px solid #ecd9a8; }
 
 /* CTA band + footer --------------------------------------------------- */
 .cta-band { background: radial-gradient(40rem 24rem at 90% 10%, rgba(21, 151, 151, 0.28), transparent 70%), linear-gradient(180deg, var(--deep-2), var(--bezel)); color: var(--deep-ink-2); padding: var(--s-24) 0; }

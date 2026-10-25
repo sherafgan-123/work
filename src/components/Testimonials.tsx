@@ -26,7 +26,6 @@ export function Testimonials() {
             <li key={t.quote} className={i === 0 ? "testi-lead" : ""}>
               <Reveal delay={(i % 3) * 70}>
                 <figure className="testi">
-                  {t.placeholder ? <span className="testi-flag">Sample text</span> : null}
                   <blockquote>
                     <p>{t.quote}</p>
                   </blockquote>
