@@ -1,6 +1,6 @@
 # Image credits
 
-Stock photographs are from Pexels, used under the Pexels licence (free to use, attribution not required). They appear on the site with a navy and teal wash and are labelled "Stock photograph. Not a client image." on case pages. The portrait of Shair Afgen comes from the portfolio PDF.
+Stock photographs are from Pexels, used under the Pexels licence (free to use, attribution not required). They appear on the site with a navy and teal wash and are labelled "Stock photograph. Not a client image." on case pages. The portrait of Shair Afgan comes from the portfolio PDF.
 
 | Use | Pexels photo ID |
 |---|---|

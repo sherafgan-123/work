@@ -33,7 +33,7 @@ The "Client", "What they sell", "Who I reached" and "My role" lines are from the
 
 1. **Booking link.** `site.bookingUrl` in `src/data/site.ts` is empty. "Book a Strategy Call" opens the contact page until you add a Calendly or Cal.com URL.
 2. **Form destination.** `site.formEndpoint` is empty. The form validates, then opens the visitor's email app with the message prepared; it says plainly that nothing has been sent. To receive messages directly, create a Formspree form and paste its endpoint.
-3. **Email.** The PDF uses `shairafgen9@gmail.com` and the name "Shair Afgen". Confirm the address and the spelling of the name. The phone number from the PDF is intentionally not published.
+3. **Email.** The PDF uses `shairafgen9@gmail.com` and the name "Shair Afgan". Confirm the address and the spelling of the name. The phone number from the PDF is intentionally not published.
 4. **LinkedIn URL.** Not in the PDF, so no link is shown. Add `site.linkedinUrl`.
 5. **Testimonials, client logos, awards.** None exist in the source, so none are shown.
 6. **Case images.** The PDF images are AI-generated and were not reused. Each case uses an original abstract illustration, labelled "Illustration only".

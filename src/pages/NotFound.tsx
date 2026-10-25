@@ -4,7 +4,7 @@ import { ButtonLink } from "../components/Buttons";
 export function NotFound() {
   return (
     <section className="page-hero">
-      <Seo title="Page not found | Shair Afgen" description="This page does not exist." path="/" />
+      <Seo title="Page not found | Shair Afgan" description="This page does not exist." path="/" />
       <div className="container">
         <p className="eyebrow">404</p>
         <h1>That page does not exist.</h1>

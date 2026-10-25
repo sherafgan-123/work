@@ -33,8 +33,7 @@ export function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <Link to="/" className="brand" aria-label={`${site.name}, home`}>
-          <img className="brand-logo" src={logo} width="40" height="40" alt="" />
-          <span>{site.name}</span>
+          <img className="brand-logo" src={logo} width="48" height="48" alt="" />
         </Link>
         <nav className="nav-desktop" aria-label="Main">
           {links.map((l) => (

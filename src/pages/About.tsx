@@ -38,7 +38,7 @@ export function About() {
               sizes="(max-width: 900px) 70vw, 380px"
               width="780"
               height="1040"
-              alt="Shair Afgen, B2B growth and pipeline strategist"
+              alt="Shair Afgan, B2B growth and pipeline strategist"
             />
           </div>
         </div>
