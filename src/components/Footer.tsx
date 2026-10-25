@@ -1,13 +1,17 @@
 import { Link } from "react-router-dom";
 import { BookButton } from "./Buttons";
 import { site } from "../data/site";
+import logo from "../assets/logo-sa.webp";
 
 export function Footer() {
   return (
     <footer className="site-footer">
       <div className="container footer-grid">
         <div>
-          <p className="footer-brand">{site.name}</p>
+          <p className="footer-brand">
+            <img className="brand-logo" src={logo} width="44" height="44" alt="" loading="lazy" />
+            {site.name}
+          </p>
           <p className="footer-text">
             {site.title}. Research-led outbound for AI, SaaS and IT companies selling into complex industries.
           </p>

@@ -3,6 +3,7 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 import { BookButton } from "./Buttons";
 import { ThemeToggle } from "./ThemeToggle";
 import { site } from "../data/site";
+import logo from "../assets/logo-sa.webp";
 
 const links = [
   { to: "/services", label: "Services" },
@@ -32,7 +33,7 @@ export function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <Link to="/" className="brand" aria-label={`${site.name}, home`}>
-          <span className="brand-mark" aria-hidden="true" />
+          <img className="brand-logo" src={logo} width="40" height="40" alt="" />
           <span>{site.name}</span>
         </Link>
         <nav className="nav-desktop" aria-label="Main">

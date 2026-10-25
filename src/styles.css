@@ -149,8 +149,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .header-inner { display: flex; align-items: center; height: var(--header-h); gap: var(--s-6); }
 .brand { display: flex; align-items: center; gap: var(--s-3); font-family: var(--font-display); font-size: var(--fs-20); font-weight: 560; color: #fff; text-decoration: none; margin-right: auto; }
 .brand:hover { color: #fff; }
-.brand-mark { width: 30px; height: 30px; border-radius: 9px; background: linear-gradient(135deg, var(--turq), var(--glass)); position: relative; }
-.brand-mark::after { content: "SA"; position: absolute; inset: 0; display: grid; place-items: center; font: 700 12px/1 var(--font-mono); color: var(--deep); }
+.brand-logo { width: 40px; height: 40px; flex-shrink: 0; }
 .nav-desktop { display: flex; gap: var(--s-8); }
 .nav-link { color: #e6eef7; text-decoration: none; font-weight: 500; padding: var(--s-2) 0; border-bottom: 2px solid transparent; }
 .nav-link:hover, .nav-link.active { color: #fff; border-bottom-color: var(--glass); }
@@ -511,7 +510,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .site-footer { background: var(--bezel); color: #a9b8ce; padding-top: var(--s-16); }
 .site-footer a { color: #dbe6f5; }
 .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1.4fr; gap: var(--s-12); }
-.footer-brand { font-family: var(--font-display); font-size: var(--fs-24); color: #fff; margin-bottom: var(--s-3); }
+.footer-brand { display: flex; align-items: center; gap: var(--s-3); font-family: var(--font-display); font-size: var(--fs-24); color: #fff; margin-bottom: var(--s-3); }
 .footer-text { max-width: 44ch; }
 .footer-head { font-family: var(--font-mono); font-size: var(--fs-12); letter-spacing: 0.14em; text-transform: uppercase; color: var(--glass); }
 .site-footer li { margin-bottom: var(--s-2); }
