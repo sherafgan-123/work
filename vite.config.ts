@@ -1,8 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// GitHub Pages serves this project at /work/. Override with SITE_BASE for a custom domain ("/").
+// Served from the root of the custom domain https://shairafgan.online. Set SITE_BASE for a project-page path.
 export default defineConfig({
-  base: process.env.SITE_BASE ?? "/work/",
+  base: process.env.SITE_BASE ?? "/",
   plugins: [react()],
 });

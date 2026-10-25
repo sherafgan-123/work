@@ -10,7 +10,7 @@ export const site = {
   // Formspree form "Sher Afgan portfolio enquiry". Enquiries are emailed to the address linked to that Formspree account.
   formEndpoint: "https://formspree.io/f/mrppeglr",
   // Public URL of the deployed site, no trailing slash. Used for canonical URLs, sitemap and Open Graph.
-  url: "https://sherafgan-123.github.io/work",
+  url: "https://shairafgan.online",
 } as const;
 
 export const headlineStats = [

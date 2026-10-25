@@ -26,7 +26,7 @@ npm run check
 
 Run `npm run deploy`. It builds the site and publishes it to the `gh-pages` branch, which GitHub Pages serves. Source code lives on `main`.
 
-The site is served at `https://sherafgan-123.github.io/work/` (the repository is named `work`). For a custom domain, set `site.url` in `src/data/site.ts` and build with `SITE_BASE=/`.
+The site is served at `https://shairafgan.online` (the repository is `sherafgan-123/work`). The domain is set in `public/CNAME` and `site.url` in `src/data/site.ts`. DNS lives at Namecheap: four A records for the root pointing to GitHub Pages and a CNAME for `www`.
 
 ## Where things live
 
