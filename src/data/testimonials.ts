@@ -9,7 +9,7 @@ export interface Testimonial {
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "Sher researched our buyers before sending a single message. The replies we got were from people who actually owned the problem.",
+      "Shair researched our buyers before sending a single message. The replies we got were from people who actually owned the problem.",
     role: "Head of Growth",
     company: "B2B SaaS company",
     placeholder: true,

@@ -1,9 +1,8 @@
 // Central site configuration. Every value marked TODO needs confirming before launch.
 export const site = {
-  name: "Sher Afgan",
+  name: "Shair Afgen",
   title: "B2B Growth & Pipeline Strategist",
   location: "Lahore, Pakistan",
-  // TODO: portfolio PDF lists this address under the spelling "Shair Afgen". Confirm it is correct.
   email: "shairafgen9@gmail.com",
   bookingUrl: "https://cal.com/shair-afgen-pb0z87/30min",
   // TODO: add the LinkedIn profile URL. While empty, no LinkedIn link is shown.

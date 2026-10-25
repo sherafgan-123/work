@@ -40,7 +40,7 @@ export function CaseStudy() {
 
   return (
     <>
-      <Seo title={`${c.title} | Sher Afgan`} description={c.metaDescription} path={`/case-studies/${c.slug}/`} />
+      <Seo title={`${c.title} | Shair Afgen`} description={c.metaDescription} path={`/case-studies/${c.slug}/`} />
       <ReadProgress />
 
       <section className={`case-hero grid-canvas dir-${c.direction}`}>

@@ -2,7 +2,7 @@
 
 ## Positioning
 
-**Who:** Sher Afgan, B2B Growth & Pipeline Strategist, an individual specialist rather than an agency.
+**Who:** Shair Afgen, B2B Growth & Pipeline Strategist, an individual specialist rather than an agency.
 **Ideal client:** founders and sales leaders at AI, SaaS and IT companies selling into complex industries, plus industry companies selling their own services.
 **Goal of the site:** turn a visit into a strategy-call enquiry.
 **Journey:** Home (promise and proof) then Case Studies (evidence) then Services (offer) then Contact. Every page ends with the same CTA.

@@ -103,7 +103,7 @@ export function Hero() {
             sizes="(max-width: 900px) 70vw, 380px"
             width="780"
             height="1040"
-            alt="Sher Afgan, B2B growth and pipeline strategist, in a dark suit and white shirt"
+            alt="Shair Afgen, B2B growth and pipeline strategist, in a dark suit and white shirt"
             fetchPriority="high"
           />
           <div className="chip chip-journey" aria-hidden="true">
@@ -126,7 +126,7 @@ export function Hero() {
           </div>
           <div className="chip chip-dark">
             <span>
-              <strong>Sher Afgan</strong>
+              <strong>Shair Afgen</strong>
               <small>Lahore · US · Canada · UK</small>
             </span>
           </div>

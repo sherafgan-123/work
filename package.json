@@ -2,7 +2,7 @@
   "name": "sher-afgan-site",
   "private": true,
   "version": "1.0.0",
-  "description": "Portfolio website for Sher Afgan, B2B Growth & Pipeline Strategist",
+  "description": "Portfolio website for Shair Afgen, B2B Growth & Pipeline Strategist",
   "type": "module",
   "scripts": {
     "dev": "vite",
