@@ -129,16 +129,19 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 
 /* Buttons ------------------------------------------------------------- */
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--s-2); min-height: 48px; padding: 0 22px; border-radius: 999px; border: 1.5px solid transparent; font: 600 var(--fs-16)/1 var(--font-body); text-decoration: none; cursor: pointer; transition: background-color 0.18s, color 0.18s, border-color 0.18s, transform 0.18s, box-shadow 0.18s; }
-.btn:hover { transform: translateY(-2px); }
 .btn:disabled { opacity: 0.6; cursor: progress; transform: none; }
 .btn-primary { background: var(--action); color: var(--on-action); }
-.btn-primary:hover { background: var(--action-hover); color: var(--on-action); }
 .btn-secondary { background: transparent; color: var(--ink); border-color: var(--rule-strong); }
-.btn-secondary:hover { border-color: var(--ink); color: var(--ink); }
 .btn-light { background: #8ccbc4; color: var(--deep); box-shadow: 0 6px 20px rgba(21, 151, 151, 0.16); }
-.btn-light:hover { background: #a3d9d3; color: var(--deep); }
 .btn-outline-light { color: #fff; border-color: rgba(255, 255, 255, 0.35); background: rgba(255, 255, 255, 0.04); }
-.btn-outline-light:hover { border-color: var(--glass); color: #fff; }
+/* Hover effects only on devices with a real mouse — no stuck hover after tap on mobile */
+@media (hover: hover) {
+  .btn:hover { transform: translateY(-2px); }
+  .btn-primary:hover { background: var(--action-hover); color: var(--on-action); }
+  .btn-secondary:hover { border-color: var(--ink); color: var(--ink); }
+  .btn-light:hover { background: #a3d9d3; color: var(--deep); }
+  .btn-outline-light:hover { border-color: var(--glass); color: #fff; }
+}
 .btn-sm { min-height: 44px; padding: 0 18px; font-size: var(--fs-14); }
 .btn-block { width: 100%; }
 .text-link { font-weight: 600; color: inherit; }
