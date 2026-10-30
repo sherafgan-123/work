@@ -77,8 +77,8 @@
   --ink: var(--porcelain);
   --ink-2: var(--deep-ink-2);
   --line: var(--deep-line);
-  --action: var(--glass);
-  --action-hover: #d3f8f4;
+  --action: #8ccbc4;
+  --action-hover: #a3d9d3;
   --on-action: var(--deep);
   --label: var(--glass);
   --accent: var(--glass);
