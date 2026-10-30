@@ -135,8 +135,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .btn-primary:hover { background: var(--action-hover); color: var(--on-action); }
 .btn-secondary { background: transparent; color: var(--ink); border-color: var(--rule-strong); }
 .btn-secondary:hover { border-color: var(--ink); color: var(--ink); }
-.btn-light { background: var(--glass); color: var(--deep); box-shadow: 0 8px 28px rgba(21, 151, 151, 0.28); }
-.btn-light:hover { background: #d3f8f4; color: var(--deep); }
+.btn-light { background: #8ccbc4; color: var(--deep); box-shadow: 0 6px 20px rgba(21, 151, 151, 0.16); }
+.btn-light:hover { background: #a3d9d3; color: var(--deep); }
 .btn-outline-light { color: #fff; border-color: rgba(255, 255, 255, 0.35); background: rgba(255, 255, 255, 0.04); }
 .btn-outline-light:hover { border-color: var(--glass); color: #fff; }
 .btn-sm { min-height: 44px; padding: 0 18px; font-size: var(--fs-14); }
