@@ -512,6 +512,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .cta-band .text-link { color: var(--glass); }
 .site-footer { background: var(--bezel); color: #a9b8ce; padding-top: var(--s-16); }
 .site-footer a { color: #dbe6f5; }
+.site-footer .btn-light { color: var(--deep); }
 .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1.4fr; gap: var(--s-12); }
 .footer-brand { display: flex; align-items: center; gap: var(--s-3); font-family: var(--font-display); font-size: var(--fs-24); color: #fff; margin-bottom: var(--s-3); }
 .footer-text { max-width: 44ch; }
