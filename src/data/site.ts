@@ -1,6 +1,6 @@
 // Central site configuration. Every value marked TODO needs confirming before launch.
 export const site = {
-  name: "Shair Afgan",
+  name: "Shair Afgen",
   title: "B2B Growth & Pipeline Strategist",
   location: "Lahore, Pakistan",
   email: "shairafgen9@gmail.com",
