@@ -1,4 +1,4 @@
-# Shair Afgen, B2B Growth & Pipeline Strategist
+# Shair Afgan, B2B Growth & Pipeline Strategist
 
 Portfolio website built with Vite, React and TypeScript. Styles are plain CSS with tokens. Fonts are self-hosted.
 

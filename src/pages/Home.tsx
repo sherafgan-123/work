@@ -206,11 +206,11 @@ export function Home() {
         <div className="container about-teaser">
           <Reveal>
             <div className="portrait-card">
-              <img src={portrait480} width="480" height="640" loading="lazy" alt="Portrait of Shair Afgen" />
+              <img src={portrait480} width="480" height="640" loading="lazy" alt="Portrait of Shair Afgan" />
             </div>
           </Reveal>
           <Reveal>
-            <p className="eyebrow">About Shair Afgen</p>
+            <p className="eyebrow">About Shair Afgan</p>
             <h2 id="about-title">I treat outbound like a research discipline, <em>not a numbers game.</em></h2>
             <p>
               For five years I have run outbound for AI, SaaS and software companies selling into the US, Canada and the UK.
