@@ -8,6 +8,7 @@ export const featuredSlugs = [
   "healthcare-software",
   "b2b-saas-platform",
   "logistics-technology",
+  "luxury-travel-company",
 ];
 
 export const categories: { id: CategoryId; label: string }[] = [

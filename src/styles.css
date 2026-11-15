@@ -299,6 +299,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .feat-2 { grid-column: span 4; }
 .feat-3 { grid-column: span 4; }
 .feat-4 { grid-column: span 8; }
+.feat-5 { grid-column: 1 / -1; }
 .featured-grid > .reveal, .featured-grid .case-card { height: 100%; }
 .case-card { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-card); overflow: hidden; transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s; }
 .case-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); border-color: var(--turq); }
@@ -526,7 +527,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 @media (max-width: 1024px) {
   .featured-grid { grid-template-columns: repeat(2, 1fr); }
   .feat-1, .feat-2, .feat-3, .feat-4 { grid-column: auto; }
-  .feat-1, .feat-4 { grid-column: 1 / -1; }
+  .feat-1, .feat-4, .feat-5 { grid-column: 1 / -1; }
   .outcome-row { grid-template-columns: repeat(3, 1fr); }
   .mosaic { grid-template-columns: repeat(2, 1fr); }
   .phases, .exec { grid-template-columns: repeat(2, 1fr); }
@@ -580,7 +581,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   .tile { min-height: 220px; }
   .tile-body { padding: var(--s-4); }
   .tile p { display: none; }
-  .feat-1, .feat-4 { grid-column: auto; }
+  .feat-1, .feat-4, .feat-5 { grid-column: auto; }
   .case-body { padding: var(--s-6); }
   .results { gap: var(--s-8); }
   .hero-actions .btn { width: 100%; }

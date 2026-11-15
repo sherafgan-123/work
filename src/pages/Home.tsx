@@ -13,7 +13,7 @@ import type { PhotoKey } from "../data/types";
 import pages from "../data/pages.json";
 import portrait480 from "../assets/portrait-480.webp";
 
-const featuredVariants: CardVariant[] = ["feature", "split", "metric", "wide"];
+const featuredVariants: CardVariant[] = ["feature", "split", "metric", "wide", "wide"];
 
 const industryPhoto: Record<string, PhotoKey> = {
   "AI & SaaS": "saas",
