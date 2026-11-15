@@ -134,7 +134,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .btn-secondary { background: transparent; color: var(--ink); border-color: var(--rule-strong); }
 .btn-light { background: #8ccbc4; color: var(--deep); box-shadow: 0 6px 20px rgba(21, 151, 151, 0.16); }
 .btn-outline-light { color: #fff; border-color: rgba(255, 255, 255, 0.35); background: rgba(255, 255, 255, 0.04); }
-/* Hover effects only on devices with a real mouse — no stuck hover after tap on mobile */
+/* Hover effects only on devices with a real mouse, so no stuck hover after tap on mobile */
 @media (hover: hover) {
   .btn:hover { transform: translateY(-2px); }
   .btn-primary:hover { background: var(--action-hover); color: var(--on-action); }
@@ -419,6 +419,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .glass-chip strong { display: block; font-family: var(--font-display); font-size: var(--fs-32); line-height: 1; font-weight: 450; }
 .glass-chip span { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--glass); }
 .caption { font-size: var(--fs-12); color: var(--deep-ink-2); margin: var(--s-2) 0 0; text-align: right; }
+.case-video { display: block; width: 100%; max-width: 980px; aspect-ratio: 16 / 9; margin-top: var(--s-6); border-radius: 24px; border: 1px solid var(--line); box-shadow: var(--shadow-md); background: #2a1630; }
 .case-layout { display: grid; grid-template-columns: 220px 1fr; gap: var(--s-16); align-items: start; }
 .case-toc { position: sticky; top: calc(var(--header-h) + 32px); }
 .case-toc p { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--label); margin-bottom: var(--s-3); }

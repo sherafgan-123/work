@@ -4,7 +4,8 @@ export type CategoryId =
   | "aviation"
   | "it-services"
   | "logistics"
-  | "finance-security";
+  | "finance-security"
+  | "travel";
 
 export type PhotoKey =
   | "aviation"
@@ -19,7 +20,8 @@ export type PhotoKey =
   | "tax"
   | "team"
   | "factory"
-  | "window";
+  | "window"
+  | "travel";
 
 export interface Metric {
   value: string;
@@ -54,6 +56,8 @@ export interface CaseStudy {
   mine: string[];
   clientLane: string[];
   related: [string, string];
+  /** Optional case study film, paths relative to the site base (files live in public/). Never shows the client's name or brand. */
+  video?: { src: string; poster: string };
 }
 
 export interface Service {

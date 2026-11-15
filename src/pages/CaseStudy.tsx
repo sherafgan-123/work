@@ -85,6 +85,26 @@ export function CaseStudy() {
         </div>
       </section>
 
+      {c.video ? (
+        <section className="section tight" aria-labelledby="video-title">
+          <div className="container">
+            <Reveal>
+              <p className="eyebrow">Watch</p>
+              <h2 id="video-title" className="block-title">The engagement in 74 seconds.</h2>
+              <video
+                className="case-video"
+                controls
+                playsInline
+                preload="none"
+                poster={`${import.meta.env.BASE_URL}${c.video.poster}`}
+              >
+                <source src={`${import.meta.env.BASE_URL}${c.video.src}`} type="video/mp4" />
+              </video>
+            </Reveal>
+          </div>
+        </section>
+      ) : null}
+
       <section className="section" aria-label="Case study detail">
         <div className="container case-layout">
           <nav className="case-toc" aria-label="In this case study">

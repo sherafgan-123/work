@@ -17,6 +17,7 @@ export const categories: { id: CategoryId; label: string }[] = [
   { id: "it-services", label: "IT services" },
   { id: "logistics", label: "Logistics" },
   { id: "finance-security", label: "Finance & security" },
+  { id: "travel", label: "Luxury travel" },
 ];
 
 export function getCase(slug: string): CaseStudy | undefined {

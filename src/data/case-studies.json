@@ -476,5 +476,62 @@
     "clientLane": [
       "Conversations after booking"
     ]
+  },
+  {
+    "slug": "luxury-travel-company",
+    "number": "11",
+    "title": "Opening Luxury Travel Advisor Conversations for a Private Travel Company",
+    "shortTitle": "Luxury travel company",
+    "summary": "A founder-led travel company with a five-star reputation needed luxury travel advisors, not tourists, to know its name.",
+    "metaDescription": "Case study: LinkedIn outreach and bilingual content that opened conversations with luxury travel agencies for a private luxury travel company in Türkiye.",
+    "category": "travel",
+    "industry": "Luxury travel",
+    "direction": "for",
+    "client": "Private luxury travel company, Türkiye",
+    "sells": "Fully private, tailor-made journeys",
+    "reached": "Luxury travel advisors and boutique agencies",
+    "market": "United States and Mexico",
+    "role": "Advisor research, LinkedIn outreach and follow-up, with bilingual content and partner decks",
+    "service": "LinkedIn outreach and social media growth",
+    "challenge": "Wealthy travellers cannot be cold-pitched, and the advisors they trust had never heard of the company.",
+    "context": "The client designs fully private journeys, led by a founder with more than thirty years as a professional guide and a five-star public rating. That reputation lived offline. The people who could send the right guests, luxury travel advisors and boutique agencies, had no reason to know the company existed.",
+    "responsibility": "I ran the advisor research, the LinkedIn outreach and the follow-ups, and worked with my content partner on the bilingual posts and the partner decks that supported each conversation. The client's team took the partner calls, the proposals and every commercial decision.",
+    "significance": "In the first four weeks the outreach built a pipeline of 67 prospects and brought two luxury travel agencies into active discussion. After the first month the client widened the engagement from LinkedIn alone to LinkedIn, Instagram and Facebook. These are conversations, not bookings, and no revenue is claimed for this engagement.",
+    "takeaway": "When the end buyer cannot be approached directly, sell trust wholesale. Reach the advisors they already rely on, and make sure the profile they check is worth the visit.",
+    "metrics": [
+      {
+        "value": "67",
+        "label": "Prospects in pipeline"
+      },
+      {
+        "value": "2",
+        "label": "Agencies in active talks"
+      }
+    ],
+    "related": [
+      "private-charter-operator",
+      "aviation-ai-platform"
+    ],
+    "photo": "travel",
+    "photoAlt": "City skyline above the water at sunset",
+    "shift": [
+      "Chasing travellers",
+      "Earning their advisors"
+    ],
+    "mine": [
+      "Advisor research",
+      "LinkedIn outreach",
+      "Follow-ups",
+      "Content and partner decks, with my content partner"
+    ],
+    "clientLane": [
+      "Partner calls",
+      "Proposals and pricing",
+      "Content approval"
+    ],
+    "video": {
+      "src": "videos/luxury-travel-case-study.mp4",
+      "poster": "videos/luxury-travel-case-study.jpg"
+    }
   }
 ]

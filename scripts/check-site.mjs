@@ -36,7 +36,7 @@ for (const f of ["sitemap.xml", "robots.txt", "404.html"]) if (!existsSync(join(
 // Case study integrity
 const slugs = new Set(cases.map((c) => c.slug));
 for (const c of cases) for (const s of c.related) if (!slugs.has(s)) fail(`${c.slug}: related ${s} not found`);
-if (cases.length !== 10) fail(`expected 10 case studies, found ${cases.length}`);
+if (cases.length !== 11) fail(`expected 11 case studies, found ${cases.length}`);
 
 // Copy rules: no em dashes anywhere in source copy
 function walk(dir) {
