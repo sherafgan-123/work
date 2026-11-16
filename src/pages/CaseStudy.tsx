@@ -70,7 +70,7 @@ export function CaseStudy() {
                 </div>
               ) : null}
             </div>
-            <p className="caption">{c.photo === "travel" ? "Illustration. Not a client image." : "Stock photograph. Not a client image."}</p>
+            <p className="caption">Stock photograph. Not a client image.</p>
           </div>
         </div>
         <div className="container">
